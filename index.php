@@ -21,7 +21,7 @@
 </head>
 <body>
 
-<!-- CABEÇALHO -->
+<!-- CABEÇALHO BOOTSTRAP-->
 
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
@@ -34,7 +34,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="index.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Meus produtos</a>
@@ -46,7 +46,38 @@
       </div>
     </nav>
 </header>
-<!-- CORPO E CADASTRO DO PRODUTO -->
+
+<!-- DIVS PARA TÍTULO DO SITE (BEM VINDO!!) -->
+
+<div class="bemVindo">
+  <div id = "titulo">
+    <h1> Seja bem vindo!! </h1>
+  </div> 
+</div>
+
+<!-- DIV PARA SEPARAR O TÍTULO DO CONTEÚDO) -->
+
+<div class="separaConteudo">  
+</div>
+
+<!-- CORPO DO SITE (CONTEÚDOS E IMAGEM) -->
+
+<section class = principal>
+  <div class="container" id="corpo1">       
+  <div class="conteudo" id="conteudo1">
+    <h2> Cadastre seu produto em nosso site!!</h2>
+    <p>Para adicionar seu produto aqui é facil, basta cadastrá-lo ao lado!</p>
+    <img class = "logotipo"src="img/ICONE.gif" alt="">
+  </div>
+</div>
+
+<div class="container" id="corpo2">
+  
+</div>
+
+</section>
+
+
 
 <!-- RODAPÉ --> 
     
