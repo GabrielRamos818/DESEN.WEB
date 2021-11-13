@@ -125,10 +125,11 @@ label{
 
 /** ESTILIZANDO LABEL QUANDO INPUT É FOCADO**/
 
-.inputs:focus ~ .labels{
+.inputs:focus ~ .labels, 
+.inputs:valid ~ .labels{
     top: -20px;
     font-size: 12px;
-    color: rgb(0, 82, 163);
+    color: rgb(0, 82, 163); 
 }
 
 /** ESTILIZANDO INPUTS**/

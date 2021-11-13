@@ -94,10 +94,6 @@
         </div>
         <br><br>
         <div class="inputGeral">
-          <input type="DATE" id ="data" name = "data" class = "inputs" required>  
-          <label class = "labels" for="data"></label>
-        </div><br><br>
-        <div class="inputGeral">
           <input type="text" id ="nomeProduto" name = "nomeProduto" class = "inputs" required>
           <label class = "labels" for="nomeProduto">Descrição</label>  
         </div>
