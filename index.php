@@ -76,7 +76,7 @@
   <div class="container" id="corpo2">
     <form action = "servidor.php" method = "POST">
       <fieldset>
-        <legend> Cadastre seu produto </legend>
+        <legend> Registre-se! </legend>
         <br><br>
         <div class="inputGeral">
           <input type="text" id ="nome" name = "nome" class = "inputs" required>  
@@ -84,34 +84,26 @@
         </div>
         <br><br>
         <div class="inputGeral">
-          <input type="tel" id ="telefone" name = "telefone" class = "inputs" required>  
-          <label class = "labels" for="telefone">Telefone</label>
+          <input type="text" id ="CPF" name = "cpf" class = "inputs" required>  
+          <label class = "labels" for="CPF">CPF</label>
         </div>
         <br><br>
         <div class="inputGeral">
-          <input type="text" id ="CPF" name = "CPF" class = "inputs" required>  
-          <label class = "labels" for="CPF">CPF / CNPJ</label>
-        </div>
-        <br><br>
-        <div class="inputGeral">
-          <input type="text" id ="nomeProduto" name = "nomeProduto" class = "inputs" required>
-          <label class = "labels" for="nomeProduto">Descrição</label>  
+          <input type="text" id ="senha" name = "senha" class = "inputs" required>
+          <label class = "labels" for="senha">Senha</label>  
         </div>
         <br><br>
         <div class="inputGeral"> 
-          <input type="number" id ="quantidade" name = "quantidade" class = "inputs" required>  
-          <label class = "labels" for="quantidade">Quantidade</label>
-        </div><br><br>
-        <div class="inputGeral">
-          <input type="number" id ="preco" name = "preco" class = "inputs" required>  
-          <label class = "labels" for="preco">Preço</label>
+          <input type="email" id ="email" name = "email" class = "inputs" required>  
+          <label class = "labels" for="email">E-mail</label>
         </div>
-        <br>
+        <br><br>
         <div class="text-center">
-          <button class = "btn btn-primary"> Cadastrar </button>
+          <button class = "btn btn-primary"> Registrar </button>
+          <a class="btn btn-primary" href="login.php"> Entrar </a>
         </div>
       </fieldset>
-    
+
     </form>
   </div>
 

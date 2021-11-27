@@ -144,3 +144,7 @@ label{
     color: white;
     letter-spacing: 2px;
 }
+
+form a{
+    margin-left: 10px;
+}
