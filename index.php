@@ -34,7 +34,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="index.php">Home</a>
+            <a class="nav-link" href="register.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="servidor.php">Meus produtos</a>
@@ -42,6 +42,12 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Contato</a>
           </li>
+          <li class="nav-item">
+                <a class="nav-link" href="index.php">Registrar</a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link" href="login.php">Login</a>
+              </li>
             </ul>
       </div>
     </nav>

@@ -28,17 +28,12 @@
             <label for="floatingInput">Email</label>
           </div>
           <div class="form-floating">
-            <input type="text" class="form-control" id="floatingPassword" placeholder="xxx.xxx.xxx-xx">
+            <input type="text" class="mt-2 form-control" id="floatingPassword" placeholder="xxx.xxx.xxx-xx">
             <label for="floatingPassword">CPF</label>
            </div>
 
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me"> Lembre-me
-              </label>
-          </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
-          <p class="mt-5 mb-3 text-muted">&copy; 2021</p>
+          <button class="mt-4 w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+          <p class="mt-4 mb-3 text-muted ano">&copy; 2021</p>
         </form>
       </main>      
   </div>
